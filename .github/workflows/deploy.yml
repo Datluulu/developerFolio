@@ -10,14 +10,24 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: SSH Deploy
+      - name: Deploy via SSH
         uses: appleboy/ssh-action@v1.0.3
         with:
           host: ${{ secrets.SERVER_IP }}
           username: ${{ secrets.SERVER_USER }}
           key: ${{ secrets.SERVER_SSH_KEY }}
           script: |
+            set -e
+
             cd /var/www/myapp
+
+            echo "Pull code..."
             git pull origin main
+
+            echo "Install dependencies..."
             npm install
-            pm2 restart myapp
+
+            echo "Reload PM2..."
+            pm2 reload myapp || pm2 start npm --name "myapp" -- start
+
+            pm2 save
