@@ -307,7 +307,7 @@ To know how to get github key look at readme.md */
 
 // Resume Section
 const resumeSection = {
-  title: "Resume",
+  title: "ResumeE",
   subtitle: "Feel free to download my resume",
 
   // Please Provide with Your Podcast embeded Link
