@@ -25,7 +25,7 @@ const greeting = {
   subTitle: emoji(
     "I am a final-year Information Technology student, specializing in Network Administration and IT Infrastructure. I am passionate about computer networks, system administration, cybersecurity fundamentals, and network monitoring."
   ), 
-   display: true 
+    displayGreeting: true 
 };
 
 // Social Media Links
