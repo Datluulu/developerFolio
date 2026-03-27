@@ -33,7 +33,7 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/Datluulu",
   gmail: "dat1211dat@gmail.com",
-  facebook: "https://www.facebook.com/saad.pasta7",
+  facebook: "https://www.facebook.com/datluulu/",
   
   display: true // Set true to display this section, defaults to false
 };
@@ -117,7 +117,7 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-docker"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Education Section
@@ -126,15 +126,11 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+       schoolName: "Ho Chi Minh City University of Educationy",
+      logo: require("./assets/images/hcmue.png"),
+      subHeader: "Information Technology – Software Engineering and Information Systems",
+      duration: "September 2021 - April 2026",
+
     },
   
   ]
@@ -146,7 +142,7 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
+      Stack: "Network Administration", //Insert stack or technology you have experience in
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
@@ -154,7 +150,7 @@ const techStack = {
       progressPercentage: "70%"
     },
     {
-      Stack: "Programming",
+      Stack: "Network Security Fundamentals",
       progressPercentage: "60%"
     }
   ],
