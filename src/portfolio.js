@@ -339,7 +339,7 @@ export {
   skillsSection,
   educationInfo,
   techStack,
-  workExperiences,
+  //workExperiences,
   openSource,
   bigProjects,
   achievementSection,
