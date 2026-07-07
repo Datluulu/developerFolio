@@ -22,8 +22,9 @@ jobs:
             cd /var/www/myapp
 
             echo "Pull code..."
-            git pull origin master
-
+            git fetch origin master
+            git reset --hard origin/master
+            
             echo "Install dependencies..."
             npm install
 
