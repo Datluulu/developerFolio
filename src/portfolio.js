@@ -23,7 +23,7 @@ const greeting = {
   username: "DLL ",
   title: "Hi all, I'm Luu",
   subTitle: emoji(
-    "I'm a final-year Information Technology student, specializing in Network Administration and IT Infrastructure. I am passionate about computer networks, system administration, cybersecurity fundamentals, and network monitoring."
+    "I'm a final-year Information Technology student, focusing on IoT and Embedded Systems. I am passionate about microcontrollers, sensors, embedded programming, hardware-software integration, and building smart connected devices."
   ), 
     displayGreeting: true 
 };
@@ -41,22 +41,22 @@ const socialMediaLinks = {
 // Skills Section
 const skillsSection = {
   title: "What I do",
-  subTitle: "GENERAL IT SPECIALIST WITH A FOCUS ON NETWORK ADMINISTRATION AND SYSTEM SUPPORT",
+  subTitle: "IOT AND EMBEDDED SYSTEMS DEVELOPER FOCUSED ON SMART CONNECTED DEVICES",
   skills: [
     emoji(
-      "⚡ Configure, manage, and troubleshoot network systems (LAN/WAN, WiFi, routing, switching)"
+      "-> Design and prototype IoT solutions using microcontrollers, sensors, and communication modules"
     ),
     emoji(
-      "⚡ Deploy and maintain servers, operating systems, and IT infrastructure"
+      "-> Develop embedded firmware for ESP32, Arduino, and similar MCU-based platforms"
     ),
     emoji(
-      "⚡ Monitor system performance, ensure security, and handle basic cybersecurity tasks"
+      "-> Integrate hardware and software for data collection, device control, and automation"
     ),
     emoji(
-      "⚡ Provide technical support and resolve hardware/software issues for users"
+      "-> Work with IoT protocols and connectivity such as MQTT, WiFi, Bluetooth, and basic TCP/IP"
     ),
     emoji(
-      "⚡ Work with cloud services and basic DevOps tools (Firebase, AWS, DigitalOcean)"
+      "-> Build dashboards and cloud-connected systems using Firebase, AWS, and web technologies"
     )
   ],
 
@@ -142,16 +142,16 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Network Administration", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "IoT Development", //Insert stack or technology you have experience in
+      progressPercentage: "85%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "Embedded Programming",
+      progressPercentage: "80%"
     },
     {
-      Stack: "Network Security Fundamentals",
-      progressPercentage: "60%"
+      Stack: "Hardware-Software Integration",
+      progressPercentage: "75%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
