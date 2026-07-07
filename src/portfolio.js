@@ -129,7 +129,7 @@ const educationInfo = {
        schoolName: "Ho Chi Minh City University of Educationy",
       logo: require("./assets/images/hcmue.png"),
       subHeader: "Information Technology – Software Engineering and Information Systems",
-      duration: "September 2021 - April 2026",
+      duration: "September 2021 - April 2025",
 
     },
   
