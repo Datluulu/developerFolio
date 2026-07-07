@@ -23,9 +23,9 @@ const greeting = {
   username: "DLL ",
   title: "Hi all, I'm Luu",
   subTitle: emoji(
-    "I'm a final-year Information Technology student, focusing on IoT and Embedded Systems. I am passionate about microcontrollers, sensors, embedded programming, hardware-software integration, and building smart connected devices."
-  ), 
-    displayGreeting: true 
+    "I'm a recent Information Technology graduate specializing in IoT and Embedded Systems. I am passionate about microcontrollers, sensors, embedded programming, hardware-software integration, and developing smart connected devices. I have hands-on experience in designing and implementing embedded solutions, IoT systems, and real-time monitoring applications."
+  ),
+  displayGreeting: true
 };
 
 // Social Media Links
