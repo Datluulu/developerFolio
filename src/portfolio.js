@@ -23,7 +23,7 @@ const greeting = {
   username: "DLL ",
   title: "Hi all, I'm Luu",
   subTitle: emoji(
-    "I am a final-year Information Technology student, specializing in Network Administration and IT Infrastructure. I am passionate about computer networks, system administration, cybersecurity fundamentals, and network monitoring."
+    "I'm a final-year Information Technology student, specializing in Network Administration and IT Infrastructure. I am passionate about computer networks, system administration, cybersecurity fundamentals, and network monitoring."
   ), 
     displayGreeting: true 
 };
