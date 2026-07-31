@@ -21,9 +21,9 @@ const illustration = {
 
 const greeting = {
   username: "DLL ",
-  title: "Hi all, I'm Luu",
+  title: "Hi, I'm Luu — AI Code & DevOps Tester",
   subTitle: emoji(
-    "I'm a recent Information Technology graduate specializing in IoT and Embedded Systems. I am passionate about microcontrollers, sensors, embedded programming, hardware-software integration, and developing smart connected devices. I have hands-on experience in designing and implementing embedded solutions, IoT systems, and real-time monitoring applications."
+    "This is a space to experiment with AI-assisted development and deployment — from testing generated ideas to shipping them as live applications."
   ),
   displayGreeting: true
 };
@@ -40,23 +40,23 @@ const socialMediaLinks = {
 
 // Skills Section
 const skillsSection = {
-  title: "What I do",
-  subTitle: "IOT AND EMBEDDED SYSTEMS DEVELOPER FOCUSED ON SMART CONNECTED DEVICES",
+  title: "What I test",
+  subTitle: "AI-ASSISTED DEVELOPMENT, HOSTING & CONTINUOUS DELIVERY",
   skills: [
     emoji(
-      "-> Design and prototype IoT solutions using microcontrollers, sensors, and communication modules"
+      "-> Test AI-generated code from prompt to working feature, with clear review checkpoints"
     ),
     emoji(
-      "-> Develop embedded firmware for ESP32, Arduino, and similar MCU-based platforms"
+      "-> Build and validate frontend, API, and automation prototypes in isolated environments"
     ),
     emoji(
-      "-> Integrate hardware and software for data collection, device control, and automation"
+      "-> Package applications with Docker and verify reproducible local and cloud deployments"
     ),
     emoji(
-      "-> Work with IoT protocols and connectivity such as MQTT, WiFi, Bluetooth, and basic TCP/IP"
+      "-> Configure CI/CD checks for linting, testing, building, and safe releases"
     ),
     emoji(
-      "-> Build dashboards and cloud-connected systems using Firebase, AWS, and web technologies"
+      "-> Experiment with hosting, environment variables, monitoring, and rollback-ready delivery"
     )
   ],
 
@@ -117,7 +117,7 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-docker"
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Education Section
@@ -142,15 +142,15 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "IoT Development", //Insert stack or technology you have experience in
+      Stack: "AI-assisted coding", //Insert stack or technology you have experience in
       progressPercentage: "85%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Embedded Programming",
+      Stack: "Hosting & deployment",
       progressPercentage: "80%"
     },
     {
-      Stack: "Hardware-Software Integration",
+      Stack: "CI/CD automation",
       progressPercentage: "75%"
     }
   ],
@@ -201,34 +201,34 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Lab Experiments",
+  subtitle: "SMALL, REPEATABLE EXPERIMENTS FOR AI CODE, HOSTING, AND CI/CD",
   projects: [
     {
       image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectName: "AI Code Review Sandbox",
+      projectDesc: "A controlled space to generate features with AI, review the output, and test it before merging.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "View GitHub",
+          url: "https://github.com/Datluulu"
         }
         //  you can add extra buttons here.
       ]
     },
     {
       image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectName: "CI/CD Deployment Lab",
+      projectDesc: "An environment for exercising build, test, container, and deploy stages from commit to hosted release.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "View GitHub",
+          url: "https://github.com/Datluulu"
         }
       ]
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -350,8 +350,8 @@ const podcastSection = {
 
 // Resume Section
 const resumeSection = {
-  title: "Resume",
-  subtitle: "Feel free to download my resume",
+  title: "Profile",
+  subtitle: "Download my personal resume and technical background",
 
   // Please Provide with Your Podcast embeded Link
   display: true // Set false to hide this section, defaults to true
@@ -360,7 +360,7 @@ const resumeSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
+    "Want to validate an AI coding workflow, hosting setup, or CI/CD pipeline? My inbox is open.",
   number: "+84-397228575",
   email_address: "dat1211dat@gmail.com"
 };
