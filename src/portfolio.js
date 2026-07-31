@@ -21,9 +21,9 @@ const illustration = {
 
 const greeting = {
   username: "DLL ",
-  title: "Hi, I'm Luu — AI Code & DevOps Tester",
+  title: "AI Code & Deployment Experiment ",
   subTitle: emoji(
-    "This is a space to experiment with AI-assisted development and deployment — from testing generated ideas to shipping them as live applications."
+    "This is an experimentation space for AI-assisted development, hosting, and CI/CD."
   ),
   displayGreeting: true
 };
