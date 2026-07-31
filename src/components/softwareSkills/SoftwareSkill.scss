@@ -29,3 +29,8 @@
 .software-skill-inline > i:hover ~ p {
   color: $skillsColor;
 }
+
+.software-skill-inline { min-width: 62px; margin-right: 12px; margin-bottom: 12px; padding: 10px 5px 4px; border-radius: 12px; transition: transform 0.2s ease, background 0.2s ease; }
+.software-skill-inline > i { color: #64748b; }
+.software-skill-inline:hover { transform: translateY(-4px); background: rgba(124, 58, 237, 0.08); }
+.software-skill-inline > i:hover, .software-skill-inline > i:hover ~ p { color: #7c3aed; }

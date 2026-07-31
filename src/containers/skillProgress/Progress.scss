@@ -68,3 +68,10 @@
     order: 2;
   }
 }
+
+.skills-container { width: min(90%, 1180px); padding: 30px 42px; border-radius: 24px; background: rgba(124, 58, 237, 0.05); border: 1px solid rgba(124, 58, 237, 0.1); }
+.dark-mode .skills-container { background: rgba(124, 58, 237, 0.09); border-color: rgba(167, 139, 250, 0.18); }
+.skill { line-height: 2.4rem; font-weight: 700; }
+.meter { height: 12px; background: rgba(148, 163, 184, 0.22); overflow: hidden; }
+.meter > span { background: linear-gradient(90deg, #7c3aed, #14b8a6); }
+@media (max-width: 768px) { .skills-container { padding: 22px 20px; } }

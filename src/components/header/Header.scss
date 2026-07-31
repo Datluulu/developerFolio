@@ -180,3 +180,12 @@
     font-size: 12px;
   }
 }
+
+/* Modern glass navigation */
+.header { background: rgba(255, 255, 255, 0.82); backdrop-filter: blur(18px); -webkit-backdrop-filter: blur(18px); border-bottom: 1px solid rgba(148, 163, 184, 0.16); padding: 12px clamp(20px, 5vw, 72px); }
+.dark-menu { background: rgba(11, 16, 32, 0.78) !important; }
+.header .logo { font-size: 1.8em; }
+.header .logo-name { color: #7c3aed; padding: 0 8px; }
+.header li a { color: #475569; font-size: 0.85rem; font-weight: 700; letter-spacing: 0.01em; border-radius: 10px; }
+.dark-menu li a { color: #dbeafe !important; }
+.header li a:hover, .header .menu-btn:hover { background: rgba(124, 58, 237, 0.1); color: #7c3aed; }

@@ -125,3 +125,13 @@
     width: auto;
   }
 }
+
+/* Hero */
+.greet-main { width: min(90%, 1180px); padding: 34px 42px; margin-top: 3.5rem; border-radius: 28px; background: linear-gradient(135deg, rgba(124, 58, 237, 0.08), rgba(20, 184, 166, 0.06)); border: 1px solid rgba(124, 58, 237, 0.12); }
+.greeting-text { font-size: clamp(2.8rem, 6vw, 5.3rem); line-height: 1.03; letter-spacing: -0.055em; font-weight: 800; }
+.greeting-text-p { font-size: 1.22rem; line-height: 1.75; max-width: 650px; color: #64748b; }
+.button-greeting-div { margin-top: 28px; }
+.dark-mode .greet-main { background: linear-gradient(135deg, rgba(124, 58, 237, 0.16), rgba(20, 184, 166, 0.08)); border-color: rgba(167, 139, 250, 0.22); }
+.dark-mode .greeting-text { background: linear-gradient(100deg, #fff 20%, #c4b5fd 65%, #5eead4); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; }
+.dark-mode .greeting-text-p { color: #b7c2d8 !important; }
+@media (max-width: 768px) { .greet-main { padding: 24px 20px; border-radius: 22px; } }

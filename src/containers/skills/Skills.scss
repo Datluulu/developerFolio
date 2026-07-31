@@ -62,3 +62,10 @@
     order: 2;
   }
 }
+
+.skills-text-div { margin-left: 64px; padding: 18px 0; }
+.skills-heading { font-size: clamp(2.4rem, 4.5vw, 4rem); font-weight: 800; letter-spacing: -0.045em; }
+.skills-text-subtitle { letter-spacing: 0.08em; font-size: 0.78rem; font-weight: 700; }
+.skills-text { line-height: 1.6; margin: 13px 0; }
+.dark-mode .skills-text { color: #b7c2d8 !important; }
+@media (max-width: 768px) { .skills-text-div { margin-left: 0; padding: 8px 0; } }

@@ -45,3 +45,6 @@
     font-size: 0.75rem;
   }
 }
+
+.main-button { background: linear-gradient(135deg, #7c3aed, #4f46e5); border-color: transparent; border-radius: 12px; margin-right: 14px; box-shadow: 0 12px 24px rgba(79, 70, 229, 0.25); transition: all 0.25s ease-in-out; }
+.main-button:hover { background: linear-gradient(135deg, #8b5cf6, #14b8a6); color: #fff; box-shadow: 0 16px 28px rgba(79, 70, 229, 0.34); transform: translateY(-4px); }

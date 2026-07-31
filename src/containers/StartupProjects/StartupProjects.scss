@@ -88,3 +88,13 @@
     text-align: center;
   }
 }
+
+.projects-container { gap: 24px; }
+.project-card { padding: 26px; border-radius: 20px; border: 1px solid rgba(148, 163, 184, 0.18); overflow: hidden; }
+.project-card-light { box-shadow: 0 14px 36px rgba(15, 23, 42, 0.08); }
+.project-card-light:hover, .project-card-dark:hover { transform: translateY(-8px); box-shadow: 0 24px 48px rgba(79, 70, 229, 0.2); }
+.project-card-dark { background: rgba(20, 27, 47, 0.78); border-color: rgba(167, 139, 250, 0.2); }
+.project-image { height: 175px; margin: -8px -8px 8px; border-radius: 14px; background: linear-gradient(135deg, rgba(124, 58, 237, 0.12), rgba(20, 184, 166, 0.09)); }
+.card-image { width: 150px; filter: drop-shadow(0 12px 12px rgba(15, 23, 42, 0.14)); }
+.card-title { font-size: 1.45rem; letter-spacing: -0.02em; }
+.project-card-footer span.project-tag { background: linear-gradient(135deg, #7c3aed, #4f46e5); border-radius: 999px; padding: 0 1em; height: 2.4em; font-weight: 700; }
