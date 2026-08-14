@@ -23,7 +23,7 @@ const greeting = {
   username: "DLL ",
   title: "AI Code & Deployment Experiment ",
   subTitle: emoji(
-    "This is an experimentation space for AI-assisted development, hosting, and CI/CD."
+    "This is an experimentation space for AI-assisted development, hosting, and CI/CD"
   ),
   displayGreeting: true
 };
