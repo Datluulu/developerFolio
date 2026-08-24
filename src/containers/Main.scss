@@ -8,3 +8,21 @@
 }
 
 .main, .greet-main, .skills-container { max-width: 1180px; }
+
+/* Ensure every text element remains readable in dark mode. */
+.dark-mode .main,
+.dark-mode .education-section,
+.dark-mode .education-text-school,
+.dark-mode .education-text-desc,
+.dark-mode .education-text-subHeader,
+.dark-mode .education-text-duration,
+.dark-mode .card-title {
+  color: #f8fafc !important;
+}
+
+.dark-mode .subTitle,
+.dark-mode .card-subtitle,
+.dark-mode .project-subtitle,
+.dark-mode .education-text-desc {
+  color: #cbd5e1 !important;
+}

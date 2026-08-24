@@ -21,9 +21,9 @@ const illustration = {
 
 const greeting = {
   username: "DLL ",
-  title: "AI Code & Deployment Experiment ",
+  title: "Hi, I'm Luu",
   subTitle: emoji(
-    "This is an experimentation space for AI-assisted development, hosting, and CI/CD"
+    "I am a fresh graduate with a Bachelor's degree in Information Technology, seeking opportunities and new challenges where I can learn, contribute, and grow as a developer."
   ),
   displayGreeting: true
 };
@@ -117,7 +117,7 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-docker"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Education Section
@@ -139,7 +139,7 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: false, //Set it to true to show Proficiency Section
   experience: [
     {
       Stack: "AI-assisted coding", //Insert stack or technology you have experience in
@@ -360,7 +360,7 @@ const resumeSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Want to validate an AI coding workflow, hosting setup, or CI/CD pipeline? My inbox is open.",
+    "I am open to opportunities, collaborations, and new challenges. Feel free to get in touch.",
   number: "+84-397228575",
   email_address: "dat1211dat@gmail.com"
 };
