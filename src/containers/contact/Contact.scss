@@ -92,3 +92,8 @@
 .contact-detail, .contact-detail-email { color: #7c3aed; font-size: clamp(1.1rem, 2.5vw, 1.7rem); }
 .dark-mode .contact-detail, .dark-mode .contact-detail-email { color: #c4b5fd; }
 @media (max-width: 768px) { .contact-div-main { padding: 24px 20px; } }
+
+.app-theme-dark .contact-detail,
+.app-theme-dark .contact-detail-email { color: #c4b5fd; }
+.app-theme-dark .contact-detail:hover,
+.app-theme-dark .contact-detail-email:hover { color: #ffffff; }

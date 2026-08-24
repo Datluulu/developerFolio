@@ -189,3 +189,6 @@
 .header li a { color: #475569; font-size: 0.85rem; font-weight: 700; letter-spacing: 0.01em; border-radius: 10px; }
 .dark-menu li a { color: #dbeafe !important; }
 .header li a:hover, .header .menu-btn:hover { background: rgba(124, 58, 237, 0.1); color: #7c3aed; }
+.app-theme-dark .header { border-bottom-color: #334155; }
+.app-theme-dark .header .logo-name { color: #c4b5fd; }
+.app-theme-dark .header li a:hover { background: #26324a; color: #ffffff !important; }

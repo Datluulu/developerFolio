@@ -21,9 +21,9 @@ const illustration = {
 
 const greeting = {
   username: "DLL ",
-  title: "AI Code & Deployment Experiment ",
+  title: "AI Code & Deployment Experiment",
   subTitle: emoji(
-    "This is an experimentation space for AI-assisted development, hosting, and CI/CD"
+    "This is an experimentation space for AI-assisted development, hosting, and CI/CD."
   ),
   displayGreeting: true
 };
@@ -40,83 +40,15 @@ const socialMediaLinks = {
 
 // Skills Section
 const skillsSection = {
-  title: "What I test",
-  subTitle: "AI-ASSISTED DEVELOPMENT, HOSTING & CONTINUOUS DELIVERY",
-  skills: [
-    emoji(
-      "-> Test AI-generated code from prompt to working feature, with clear review checkpoints"
-    ),
-    emoji(
-      "-> Build and validate frontend, API, and automation prototypes in isolated environments"
-    ),
-    emoji(
-      "-> Package applications with Docker and verify reproducible local and cloud deployments"
-    ),
-    emoji(
-      "-> Configure CI/CD checks for linting, testing, building, and safe releases"
-    ),
-    emoji(
-      "-> Experiment with hosting, environment variables, monitoring, and rollback-ready delivery"
-    )
-  ],
+  title: "Career Objective",
+  subTitle:
+    "I am looking for a supportive environment where I can develop my skills, take on new challenges, and grow as a developer.",
+  skills: [],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
-  softwareSkills: [
-    {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
-  ],
+  softwareSkills: [],
   display: true // Set false to hide this section, defaults to true
 };
 
@@ -139,7 +71,7 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: false, //Set it to true to show Proficiency Section
   experience: [
     {
       Stack: "AI-assisted coding", //Insert stack or technology you have experience in
@@ -360,7 +292,7 @@ const resumeSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Want to validate an AI coding workflow, hosting setup, or CI/CD pipeline? My inbox is open.",
+    "I am looking for opportunities and a supportive environment where I can learn, contribute, and grow.",
   number: "+84-397228575",
   email_address: "dat1211dat@gmail.com"
 };
