@@ -25,12 +25,9 @@ jobs:
             git pull origin master
 
             echo "Install dependencies..."
-            npm ci
-
-            echo "Build..."
-            npm run build
+            npm install
 
             echo "Reload PM2..."
-            pm2 reload myapp
+            pm2 reload myapp || pm2 start npm --name "myapp" -- start
 
             pm2 save
