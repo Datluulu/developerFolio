@@ -27,6 +27,9 @@ jobs:
             echo "Install dependencies..."
             npm install
 
+            echo "Build..."
+            npm run build
+
             echo "Reload PM2..."
             pm2 reload myapp || pm2 start npm --name "myapp" -- start
 
