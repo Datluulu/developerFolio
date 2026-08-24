@@ -49,7 +49,7 @@ const skillsSection = {
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Education Section
